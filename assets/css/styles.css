@@ -523,6 +523,25 @@ img {
     margin: 0 var(--mb-2);
   }
 }
+@media screen and (max-width: 576px) and (orientation: portrait) {
+  .contact__container {
+    justify-items: center;
+  }
+  .contact__icon {
+    color: #df2525;
+    font-size: 40px;
+    margin: 0.5rem;
+  }
+  .contact__iconwp {
+    color: #53c561;
+    font-size: 40px;
+    margin: 0.5rem;
+  }
+  .contact__form {
+    width: 360px;
+    padding-top: 2rem;
+  }
+}
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
